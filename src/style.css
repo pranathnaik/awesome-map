@@ -9,17 +9,27 @@ body {
 }
 
 .navbar {
+  padding-right: 25px;
+  padding-left: 25px;
   display: flex;
+  justify-content: space-between;
   background-color: #0f4c75;
   height: 50px;
+  box-shadow: 5px 5px 30px 2px rgba(0, 0, 0, 0.75);
 }
 
 .navbar .logo {
   font-size: x-large;
-  font-weight: 500;
-  margin: auto;
+  font-weight: 700;
+  margin-top: auto;
+  margin-bottom: auto;
 }
-
+.navbar .giticon {
+  font-size: x-large;
+  font-weight: 700;
+  margin-top: auto;
+  margin-bottom: auto;
+}
 .main-section {
   padding: 20px;
   background-color: #1b262c;
@@ -27,27 +37,37 @@ body {
 
 .container {
   background-color: #3282b8;
-  height: 25vh;
+  height: 16rem;
   margin-top: 20px;
   display: flex;
   flex-direction: column;
   padding: 14px;
+  box-shadow: 5px 5px 30px 2px rgba(0, 0, 0, 0.75);
 }
 .top-container {
-  width: 10rem;
+  width: 20rem;
   margin-left: 1%;
   padding: 0%;
+}
+.top-container p {
+  font-size: large;
+  font-weight: 400;
 }
 .content-container {
   display: flex;
   justify-content: flex-start;
-  height: 80%;
-  width: 98%;
+  height: 9.5rem;
+  width: 113.5rem;
   margin: auto;
 }
 .boxes {
-  background-color: aliceblue;
+  background-color: #1b262c;
   width: 15rem;
+  box-shadow: 5px 5px 30px 2px rgba(0, 0, 0, 0.75);
   margin-right: 30px;
+  border: solid rgba(2, 225, 255, 0.76) 2px;
 }
-
+li {
+  color: white;
+  list-style: none;
+}
