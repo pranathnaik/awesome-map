@@ -51,7 +51,22 @@ body {
   box-shadow: 5px 5px 30px 2px rgba(0, 0, 0, 0.75);
   border: solid rgba(2, 225, 255, 0.76) 2px;
   margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+.title {
+  height: 35px;
+  width: 100%;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+.title h3 {
+  color: black;
+}
+
 li {
   color: white;
   list-style: none;
