@@ -37,35 +37,20 @@ body {
 
 .container {
   background-color: #3282b8;
-  height: 16rem;
-  margin-top: 20px;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 20px;
   padding: 14px;
   box-shadow: 5px 5px 30px 2px rgba(0, 0, 0, 0.75);
 }
-.top-container {
-  width: 20rem;
-  margin-left: 1%;
-  padding: 0%;
-}
-.top-container p {
-  font-size: large;
-  font-weight: 400;
-}
-.content-container {
-  display: flex;
-  justify-content: flex-start;
-  height: 9.5rem;
-  width: 113.5rem;
-  margin: auto;
-}
+
 .boxes {
   background-color: #1b262c;
-  width: 15rem;
+  width: 14rem;
+  height: 13rem;
   box-shadow: 5px 5px 30px 2px rgba(0, 0, 0, 0.75);
-  margin-right: 30px;
   border: solid rgba(2, 225, 255, 0.76) 2px;
+  margin: 20px;
 }
 li {
   color: white;

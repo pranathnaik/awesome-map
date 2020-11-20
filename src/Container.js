@@ -5,10 +5,7 @@ function Container(props) {
   return (
     <>
       <div className="container">
-        <div className="top-container">
-          <p>{props.name}</p>
-        </div>
-        <div className="content-container">
+       
           {props.data.map((data) => {
             return (
               <>
@@ -16,7 +13,6 @@ function Container(props) {
               </>
             );
           })}
-        </div>
       </div>
     </>
   );
