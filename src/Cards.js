@@ -1,6 +1,7 @@
 import React from "react";
 
 const Boxes = (props) => {
+  console.log(props);
   return (
     <>
       <div className="boxes">
@@ -8,11 +9,13 @@ const Boxes = (props) => {
           <h3>{props.name}</h3>
         </div>
         <div className="links">
-          <ol>
-            <li>
-              <a href={props.link}> google</a>
-            </li>
-          </ol>
+          {props.links.map((data) => {
+            return (
+              <div className="link-column">
+                <a href={data.link}>{data.name}</a>
+              </div>
+            );
+          })}
         </div>
       </div>
     </>

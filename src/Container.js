@@ -5,14 +5,13 @@ function Container(props) {
   return (
     <>
       <div className="container">
-       
-          {props.data.map((data) => {
-            return (
-              <>
-                <Boxes key={data.id} name={data.name} link={data.link} />
-              </>
-            );
-          })}
+        {props.data.map((data) => {
+          return (
+            <>
+              <Boxes key={data.id} name={data.name} links={data.links} />
+            </>
+          );
+        })}
       </div>
     </>
   );
