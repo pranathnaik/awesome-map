@@ -11,9 +11,9 @@ const Boxes = (props) => {
         <div className="links">
           {props.links.map((data) => {
             return (
-              <div className="link-column">
-                <a href={data.link}>{data.name}</a>
-              </div>
+              <a className="link-column" href={data.link} target="_blank">
+                {data.name}
+              </a>
             );
           })}
         </div>

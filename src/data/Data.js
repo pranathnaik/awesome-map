@@ -1,17 +1,29 @@
 const Webdev = [
   {
     id: 1,
-    name: "DSA",
+    name: "DSA & Placements",
     links: [
       {
-        name: "striver 180+",
+        name: "Striver 180+ DSA",
         link:
           "https://docs.google.com/document/d/1SM92efk8oDl8nyVw8NHPnbGexTS9W-1gmTEYfEurLWQ/edit",
       },
       {
-        name: "Love Babbar 450+",
+        name: "Love Babbar 450+ DSA",
         link:
           "https://docs.google.com/spreadsheets/d/1DPpf9nz_wHlGZrDEQu98p46w14EK6sbGxkbJtZSiJK0/edit#gid=1175458673",
+      },
+
+      {
+        name: "IP Notes",
+        link:
+          "https://drive.google.com/drive/u/0/folders/15E9vAooWGtLv1UlzpkawUkM1f7_mFeJs",
+      },
+
+      {
+        name: "Roadmap to dream Placement",
+        link:
+          "https://whimsical.com/4th-year-roadmap-to-dream-placement-WB2HTZixtsohXoDcvr6Me7",
       },
     ],
   },
