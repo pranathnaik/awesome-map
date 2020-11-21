@@ -11,7 +11,11 @@ const Boxes = (props) => {
         <div className="links">
           {props.links.map((data) => {
             return (
-              <a className="link-column" href={data.link} target="_blank">
+              <a
+                className="link-column"
+                href={data.link}
+                target="_blank  rel=noopener"
+              >
                 {data.name}
               </a>
             );
