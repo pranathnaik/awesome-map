@@ -43,7 +43,6 @@ body {
 }
 
 .container {
-  background-color: var(--container);
   display: flex;
   flex-wrap: wrap;
   margin-top: 20px;
