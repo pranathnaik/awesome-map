@@ -1,4 +1,4 @@
-![alt text](https://i.ibb.co/3BCG5xd/Screenshot-2020-11-20-192932.jpg)
+![alt text](https://i.ibb.co/rdDPPH3/Screenshot-2020-11-20-192932.jpg)
 
 ### `npm start`
 
