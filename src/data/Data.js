@@ -68,6 +68,26 @@ const Webdev = [
       },
     ],
   },
+
+  {
+    id: 4,
+    name: "Master CSS",
+    links: [
+      {
+        name: "Box Model",
+        link: "https://www.youtube.com/watch?v=rIO5326FgPE",
+      },
+
+      {
+        name: "FlexBox",
+        link: "https://www.youtube.com/watch?v=fYq5PXgSsbE",
+      },
+      {
+        name: "CSS Grid",
+        link: " https://www.youtube.com/watch?v=9zBsdzdE4sM",
+      },
+    ],
+  },
 ];
 
 export default Webdev;
