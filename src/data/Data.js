@@ -25,6 +25,10 @@ const Webdev = [
         link:
           "https://whimsical.com/4th-year-roadmap-to-dream-placement-WB2HTZixtsohXoDcvr6Me7",
       },
+      {
+        name: "Operating System",
+        link: "https://www.youtube.com/watch?v=SWBjv-GU3VQ",
+      },
     ],
   },
 

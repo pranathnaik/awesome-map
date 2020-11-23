@@ -1,12 +1,13 @@
 import React from "react";
 import "./style.css";
 import Webdev from "./data/Data";
-
 import Container from "./Container";
+
 function App() {
   const web = Webdev.map((data) => {
     return data;
   });
+
   return (
     <>
       <div className="navbar">
