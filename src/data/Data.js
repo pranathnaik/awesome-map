@@ -29,6 +29,10 @@ const Webdev = [
         name: "Operating System",
         link: "https://www.youtube.com/watch?v=SWBjv-GU3VQ",
       },
+      {
+        name: "Oops concept",
+        link: "https://www.youtube.com/watch?v=wWejXusF9qU",
+      },
     ],
   },
 
@@ -49,6 +53,12 @@ const Webdev = [
         name: "React JS Playlist",
         link:
           "https://www.youtube.com/playlist?list=PLwGdqUZWnOp3aROg4wypcRhZqJG3ajZWJ",
+      },
+
+      {
+        name: "Node JS Playlist",
+        link:
+          " https://www.youtube.com/playlist?list=PLwGdqUZWnOp00IbeN0OtL9dmnasipZ9x8",
       },
     ],
   },
