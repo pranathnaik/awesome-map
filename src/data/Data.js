@@ -102,6 +102,18 @@ const Webdev = [
       },
     ],
   },
+
+  {
+    id: 5,
+    name: "MERN Stack",
+    links: [
+      {
+        name: "mern authentication ",
+        link:
+          "https://www.youtube.com/playlist?list=PLJM1tXwlGdaf57oUx0rIqSW668Rpo_7oU",
+      },
+    ],
+  },
 ];
 
 export default Webdev;
